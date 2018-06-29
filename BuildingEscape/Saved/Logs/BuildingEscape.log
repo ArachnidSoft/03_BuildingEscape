@@ -1,4 +1,4 @@
-﻿Log file open, 06/22/18 23:29:00
+﻿Log file open, 06/28/18 18:00:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BuildingEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(803082740) SRandInit(803082740).
+LogInit: Display: RandInit(-1352277257) SRandInit(-1352277257).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.325388
+LogStats: Stats thread started at 0.356585
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.161s to configure plugins.
-LogModuleManager: Warning: Module file D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Binaries/Win64/UE4Editor-BuildingEscape-892.dll is missing. This is likely a stale module that must be recompiled.
+LogStreaming: Display: Took  0.173s to configure plugins.
+LogModuleManager: Warning: Module file D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Binaries/Win64/UE4Editor-BuildingEscape-2179.dll is missing. This is likely a stale module that must be recompiled.
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -172,21 +172,32 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
 LogInit: Warning: Incompatible or missing module: UE4Editor-BuildingEscape.dll
 Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape Development Win64 -project="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/BuildingEscape.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Performing full C++ include scan (building a new target)
 Using 'git status' to determine working set for adaptive non-unity build.
-Creating makefile for BuildingEscape (ini files are newer than UBTMakefile)
+Creating makefile for BuildingEscape (no existing makefile)
 @progress push 5%
 @progress pop
-Performing 6 actions (4 in parallel)
-BuildingEscapeGameModeBase.gen.cpp
-BuildingEscape.cpp
-BuildingEscape.init.gen.cpp
-BuildingEscapeGameModeBase.cpp
-[5/6] Link UE4Editor-BuildingEscape.dll
-[6/6] Link UE4Editor-BuildingEscape.lib
-   Creating library D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-1975.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-1975.pdb".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2606.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-2606.pdb".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-5927.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-5927.pdb".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6538.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-6538.pdb".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7755.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-7755.pdb".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8032.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-8032.pdb".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9085.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9085.pdb".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9174.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9174.pdb".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9195.dll".
+Deleting old hot reload file: "D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-9195.pdb".
+Performing 1 actions (4 in parallel)
+[1/1] Link UE4Editor-BuildingEscape.dll
    Creating library D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.lib and object D:\Users\Jerry\Documents\repos\03_BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.exp
-Total build time: 57.03 seconds (Local executor: 5.77 seconds)
+Total build time: 47.31 seconds (Local executor: 1.12 seconds)
 LogModuleManager: Display: Found up-to-date module file D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Binaries/Win64/UE4Editor-BuildingEscape.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -322,466 +333,1076 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.23-03.30.09:120][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.23-03.30.09:120][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.23-03.30.09:164][  0]LogInit: Computer: BARRYTHECHOPPA
-[2018.06.23-03.30.09:164][  0]LogInit: User: Jerry
-[2018.06.23-03.30.09:164][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.06.23-03.30.09:164][  0]LogInit: High frequency timer resolution =3.429460 MHz
-[2018.06.23-03.30.09:164][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.06.23-03.30.09:164][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.23-03.30.09:164][  0]LogMemory: Process Physical Memory: 278.12 MB used, 278.12 MB peak
-[2018.06.23-03.30.09:164][  0]LogMemory: Process Virtual Memory: 265.37 MB used, 265.37 MB peak
-[2018.06.23-03.30.09:164][  0]LogMemory: Physical Memory: 5078.45 MB used,  3010.16 MB free, 8088.61 MB total
-[2018.06.23-03.30.09:164][  0]LogMemory: Virtual Memory: 4859.83 MB used,  3010.16 MB free, 134217728.00 MB total
-[2018.06.23-03.30.09:191][  0]LogInit: Using OS detected language (en-US).
-[2018.06.23-03.30.09:191][  0]LogInit: Using OS detected locale (en-US).
-[2018.06.23-03.30.09:196][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.06.23-03.30.09:803][  0]LogStreaming: Display: Took  0.612s to EndInitTextLocalization.
-[2018.06.23-03.30.09:803][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.23-03.30.09:859][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.23-03.30.09:859][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.23-03.30.10:141][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.23-03.30.10:228][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.06.23-03.30.10:228][  0]LogD3D11RHI:       8096/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.06.23-03.30.10:230][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.23-03.30.10:230][  0]LogD3D11RHI:       0/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.23-03.30.10:230][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.23-03.30.10:242][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.23-03.30.10:242][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.23-03.30.10:242][  0]LogWindows: EnumDisplayDevices:
-[2018.06.23-03.30.10:242][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.06.23-03.30.10:242][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.06.23-03.30.10:243][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.06.23-03.30.10:243][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.06.23-03.30.10:243][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.23-03.30.10:243][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.06.23-03.30.10:243][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.23-03.30.10:243][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.23-03.30.10:243][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2018.06.23-03.30.10:293][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.06.23-03.30.10:293][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.23-03.30.10:293][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.23-03.30.10:349][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.06.23-03.30.10:401][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/17864/).
-[2018.06.23-03.30.10:401][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jerry/AppData/Local/Temp/UnrealShaderWorkingDir/456140684C5F4E436CB62697854D1B09/'.
-[2018.06.23-03.30.10:687][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.23-03.30.10:710][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.23-03.30.10:733][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.23-03.30.10:756][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.23-03.30.10:780][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.23-03.30.10:803][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.23-03.30.10:827][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.23-03.30.10:850][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.23-03.30.10:862][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.23-03.30.10:882][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.23-03.30.10:902][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.23-03.30.10:921][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.23-03.30.10:942][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.23-03.30.10:962][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.23-03.30.10:983][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.23-03.30.11:023][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.23-03.30.11:023][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.23-03.30.11:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.23-03.30.11:045][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.23-03.30.11:094][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.23-03.30.11:113][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.23-03.30.11:133][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.23-03.30.11:152][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.23-03.30.11:172][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.23-03.30.11:194][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.23-03.30.11:194][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.23-03.30.11:400][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.23-03.30.11:400][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.23-03.30.11:400][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.23-03.30.12:576][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.23-03.30.12:753][  0]LogDerivedDataCache: Loaded boot cache 0.18s 76MB C:/Users/Jerry/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.23-03.30.12:753][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jerry/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.23-03.30.12:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.23-03.30.12:753][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.23-03.30.12:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.23-03.30.12:753][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.23-03.30.12:776][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.23-03.30.12:790][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jerry/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.23-03.30.12:810][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.23-03.30.12:810][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.23-03.30.12:811][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.23-03.30.12:811][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.23-03.30.13:007][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
-[2018.06.23-03.30.13:548][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.23-03.30.13:777][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.23-03.30.13:782][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.23-03.30.13:782][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.23-03.30.13:782][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.23-03.30.13:782][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.23-03.30.13:782][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.23-03.30.13:847][  0]LogNetVersion: BuildingEscape , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4285820645)
-[2018.06.23-03.30.14:582][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.119160 seconds
-[2018.06.23-03.30.14:590][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.23-03.30.14:590][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.06.23-03.30.14:590][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.23-03.30.17:190][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.23-03.30.17:239][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.23-03.30.17:915][  0]SourceControl: Source control is disabled
-[2018.06.23-03.30.17:915][  0]SourceControl: Source control is disabled
-[2018.06.23-03.30.17:950][  0]SourceControl: Source control is disabled
-[2018.06.23-03.30.17:985][  0]SourceControl: Source control is disabled
-[2018.06.23-03.30.18:833][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.23-03.30.19:210][  0]LogOcInput: OculusInput pre-init called
-[2018.06.23-03.30.19:389][  0]LogEngine: Initializing Engine...
-[2018.06.23-03.30.20:112][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-37EA19E6
-[2018.06.23-03.30.20:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.23-03.30.20:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.23-03.30.20:628][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.23-03.30.21:657][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.23-03.30.21:715][  0]LogInit: FAudioDevice initialized.
-[2018.06.23-03.30.21:852][  0]LogDerivedDataCache: Saved boot cache 0.14s 76MB C:/Users/Jerry/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.23-03.30.21:895][  0]LogInit: Texture streaming: Enabled
-[2018.06.23-03.30.21:929][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.23-03.30.21:961][  0]LogInit: Transaction tracking system initialized
-[2018.06.23-03.30.22:012][  0]BlueprintLog: New page: Editor Load
-[2018.06.23-03.30.22:197][  0]LocalizationService: Localization service is disabled
-[2018.06.23-03.30.22:429][  0]LogConsoleResponse: Display: 
-[2018.06.23-03.30.22:731][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.23-03.30.22:732][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.23-03.30.22:732][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.23-03.30.22:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.23-03.30.22:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.23-03.30.23:688][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/' took 0.02s
-[2018.06.23-03.30.23:688][  0]SourceControl: Source control is disabled
-[2018.06.23-03.30.23:688][  0]Cmd: MAP LOAD FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.23-03.30.23:689][  0]LightingResults: New page: Lighting Build
-[2018.06.23-03.30.23:695][  0]MapCheck: New page: Map Check
-[2018.06.23-03.30.23:695][  0]LightingResults: New page: Lighting Build
-[2018.06.23-03.30.24:186][  0]LogAIModule: Creating AISystem for world NewMap
-[2018.06.23-03.30.24:194][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.23-03.30.24:230][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.23-03.30.24:342][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.939ms to complete.
-[2018.06.23-03.30.24:342][  0]LogFileHelpers: Loading map 'NewMap' took 0.654
-[2018.06.23-03.30.24:759][  0]LogCollectionManager: Loaded 0 collections in 0.004856 seconds
-[2018.06.23-03.30.24:846][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
-[2018.06.23-03.30.24:846][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/Developers/Jerry/Collections/' took 0.01s
-[2018.06.23-03.30.24:846][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
-[2018.06.23-03.30.24:847][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.06.23-03.30.24:869][  0]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 2453 classes and 560 folders.
-[2018.06.23-03.30.24:895][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2018.06.23-03.30.25:489][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.06.23-03.30.25:512][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.06.23-03.30.25:648][  0]LogSlate: Took 0.000441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.23-03.30.25:652][  0]LogSlate: Took 0.000432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.23-03.30.25:679][  0]LogSlate: Took 0.010479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.23-03.30.25:955][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.06.23-03.30.26:140][  0]LogSlate: Took 0.010291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.23-03.30.26:362][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.06.23-03.30.26:363][  0]LogLoad: (Engine Initialization) Total time: 88.23 seconds
-[2018.06.23-03.30.26:363][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.23-03.30.26:404][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.23-03.30.26:428][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.23-03.30.26:611][  2]LogAssetRegistry: Asset discovery search completed in 13.6261 seconds
-[2018.06.23-03.30.26:615][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.06.23-03.30.26:615][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000125 seconds (updated 0 objects)
-[2018.06.23-03.30.45:300][827]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.06.23-03.30.52:730][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-03.32.11:820][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-03.32.15:006][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-03.32.19:594][339]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-03.32.29:449][ 95]MapCheck: New page: Map Check
-[2018.06.23-03.32.29:482][ 95]Cmd: MAP REBUILD ALLVISIBLE
-[2018.06.23-03.32.29:483][ 95]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.06.23-03.32.29:569][ 95]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.06.23-03.32.29:591][ 95]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2018.06.23-03.32.29:597][ 95]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.06.23-03.32.29:597][ 95]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
-[2018.06.23-03.32.29:605][ 95]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2018.06.23-03.32.30:888][ 95]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.06.23-03.32.30:888][ 95]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.06.23-03.32.30:888][ 95]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.06.23-03.32.30:888][ 95]TextureStreamingBuild: Display: Compiling optional shaders took 1.327 seconds.
-[2018.06.23-03.32.30:916][ 95]LogLevel: Display: Export Material TexCoord Scales took 0.028 seconds.
-[2018.06.23-03.32.30:922][ 95]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
-[2018.06.23-03.32.30:962][ 95]LightingResults: New page: Lighting Build - Jun 22, 2018, 7:32:30 PM
-[2018.06.23-03.32.31:097][ 95]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.06.23-03.32.31:326][ 95]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.06.23-03.32.31:349][ 95]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.06.23-03.32.32:382][ 95]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.06.23-03.32.32:382][ 95]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17864
-[2018.06.23-03.32.35:598][ 95]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.06.23-03.32.35:598][ 95]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.06.23-03.32.35:598][ 95]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.06.23-03.32.35:598][ 95]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.06.23-03.32.35:598][ 95]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.06.23-03.32.35:598][ 95]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.06.23-03.32.35:880][ 95]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.06.23-03.32.35:880][ 95]MapCheck: New page: NewMap - Jun 22, 2018, 7:32:35 PM
-[2018.06.23-03.32.35:881][ 95]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
-[2018.06.23-03.32.35:976][ 95]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 96.44ms to complete.
-[2018.06.23-03.32.36:000][ 95]LogEditorBuildUtils: Build time 0:06
-[2018.06.23-03.32.36:054][ 95]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
-[2018.06.23-03.32.36:064][ 95]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.06.23-03.32.36:064][ 95]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
-[2018.06.23-03.32.36:123][ 95]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.06.23-03.32.36:167][ 96]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
-[2018.06.23-03.32.36:174][ 96]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.06.23-03.32.36:174][ 96]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
-[2018.06.23-03.32.36:202][ 96]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.06.23-03.32.36:235][ 97]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
-[2018.06.23-03.32.36:244][ 97]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
-[2018.06.23-03.32.36:323][ 98]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2018.06.23-03.32.36:335][ 98]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2018.06.23-03.32.38:748][100]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.06.23-03.32.41:409][171]Job is a success!
-[2018.06.23-03.32.41:462][172]LogSlate: Took 0.000358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.23-03.32.41:514][172]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
-[2018.06.23-03.32.41:514][172]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.06.23-03.32.41:514][172]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
-[2018.06.23-03.32.41:514][172]LogVolumetricLightmapImport:      Bricks at Level
-[2018.06.23-03.32.41:515][172]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
-[2018.06.23-03.32.41:515][172]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
-[2018.06.23-03.32.41:515][172]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
-[2018.06.23-03.32.41:592][172]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
-[2018.06.23-03.32.41:592][172]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.06.23-03.32.41:592][172]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
-[2018.06.23-03.32.41:592][172]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.06.23-03.32.41:592][172]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2018.06.23-03.32.41:592][172]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X128)
-[2018.06.23-03.32.41:642][172]Lightmass on BARRYTHECHOPPA: 1.39 sec total, 209 ms importing, 28 ms setup, 395 ms photons, 653 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 4.40 sec total, 623 ms processing.
-[2018.06.23-03.32.41:716][172]LogStaticLightingSystem: Illumination: 10.7 sec (43 ms encoding lightmaps, 16 ms encoding shadowmaps)
-[2018.06.23-03.32.41:716][172]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.06.23-03.32.41:716][172]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.06.23-03.32.42:632][172]DumpUnbuiltLightIteractions
-[2018.06.23-03.32.42:632][172]Lights with unbuilt interactions: 0
-[2018.06.23-03.32.42:632][172]
-[2018.06.23-03.32.42:632][172]Primitives with unbuilt interactions: 0
-[2018.06.23-03.32.42:645][172]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-03.32.42:738][173]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.06.23-03.32.42:738][173]MapCheck: New page: NewMap - Jun 22, 2018, 7:32:42 PM
-[2018.06.23-03.32.42:829][173]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.91ms to complete.
-[2018.06.23-03.32.45:077][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-03.32.45:152][358]LogSlate: Window 'Message Log' being destroyed
-[2018.06.23-03.32.45:158][358]LogSlate: Window 'Message Log' being destroyed
-[2018.06.23-03.32.46:254][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.06.23-03.32.46:898][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-03.33.18:016][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-03.33.18:771][743]LogSlate: Took 0.008030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.06.23-03.33.44:517][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-03.34.03:679][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-03.39.16:507][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-03.39.17:265][450]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.23-03.40.27:800][793]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-03.40.27:906][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.06.23-03.40.27:970][793]LogSavePackage: Save=43.62ms
-[2018.06.23-03.40.27:970][793]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto1DA2A4E4740AB67F701133AA4DA3646D4.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap'
-[2018.06.23-03.40.27:973][793]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap
-[2018.06.23-03.40.27:977][793]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.131
-[2018.06.23-03.40.27:977][793]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.131
-[2018.06.23-03.40.27:979][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewMap_BuiltData] ([1] browsable assets)...
-[2018.06.23-03.40.27:979][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewMap_BuiltData]
-[2018.06.23-03.40.27:979][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.06.23-03.40.28:039][793]LogSavePackage: Save=48.68ms
-[2018.06.23-03.40.28:039][793]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltData_Auto1E1BD3E9A4406EE8AF8F600BB46A9B162.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_BuiltData_Auto1.uasset'
-[2018.06.23-03.40.28:040][793]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_BuiltData_Auto1.uasset
-[2018.06.23-03.40.28:040][793]LogFileHelpers: Auto-saving content packages took 0.062
-[2018.06.23-12.52.22:397][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.06.23-12.52.31:327][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-12.53.29:460][183]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.23-12.53.38:817][977]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.23-12.53.45:888][621]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.23-12.53.51:478][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.06.23-12.53.52:881][220]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.23-12.54.23:421][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.54.23:555][925]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
-[2018.06.23-12.54.23:600][925]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.06.23-12.54.23:600][925]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
-[2018.06.23-12.54.23:640][925]LogShaderCompilers: Display: Shaders left to compile 20
-[2018.06.23-12.54.23:640][925]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.06.23-12.54.23:640][925]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
-[2018.06.23-12.54.23:697][925]LogShaderCompilers: Display: Shaders left to compile 20
-[2018.06.23-12.54.23:697][925]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
-[2018.06.23-12.54.23:755][925]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
-[2018.06.23-12.54.23:857][925]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.23-12.54.23:877][925]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.23-12.54.23:901][925]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.23-12.54.23:926][925]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.23-12.54.23:968][925]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
-[2018.06.23-12.54.23:993][925]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.23-12.54.24:026][925]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
-[2018.06.23-12.54.24:056][925]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
-[2018.06.23-12.54.27:093][ 45]LogShaderCompilers: Display: Shaders left to compile 178
-[2018.06.23-12.54.28:534][117]LogShaderCompilers: Display: Shaders left to compile 168
-[2018.06.23-12.54.28:689][125]LogShaderCompilers: Display: Shaders left to compile 158
-[2018.06.23-12.54.28:816][132]LogShaderCompilers: Display: Shaders left to compile 148
-[2018.06.23-12.54.31:316][253]LogShaderCompilers: Display: Shaders left to compile 138
-[2018.06.23-12.54.32:449][308]LogShaderCompilers: Display: Shaders left to compile 128
-[2018.06.23-12.54.32:946][331]LogShaderCompilers: Display: Shaders left to compile 118
-[2018.06.23-12.54.33:107][340]LogShaderCompilers: Display: Shaders left to compile 108
-[2018.06.23-12.54.35:954][461]LogShaderCompilers: Display: Shaders left to compile 98
-[2018.06.23-12.54.35:986][461]LogActorFactory: Actor Factory created SM_Rock
-[2018.06.23-12.54.36:844][501]LogShaderCompilers: Display: Shaders left to compile 88
-[2018.06.23-12.54.37:333][523]LogShaderCompilers: Display: Shaders left to compile 78
-[2018.06.23-12.54.37:401][527]LogShaderCompilers: Display: Shaders left to compile 68
-[2018.06.23-12.54.39:980][658]LogShaderCompilers: Display: Shaders left to compile 58
-[2018.06.23-12.54.40:705][697]LogActorFactory: Actor Factory created SM_Rock
-[2018.06.23-12.54.40:934][701]LogShaderCompilers: Display: Shaders left to compile 48
-[2018.06.23-12.54.41:590][734]LogShaderCompilers: Display: Shaders left to compile 38
-[2018.06.23-12.54.41:629][736]LogShaderCompilers: Display: Shaders left to compile 28
-[2018.06.23-12.54.44:316][874]LogShaderCompilers: Display: Shaders left to compile 18
-[2018.06.23-12.54.45:102][920]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.06.23-12.55.25:861][365]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.55.25:928][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.06.23-12.55.25:986][365]LogSavePackage: Save=47.30ms
-[2018.06.23-12.55.25:986][365]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto2519939BB4C74B8E90A3AF0AF3D2D2FA8.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap'
-[2018.06.23-12.55.25:987][365]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap
-[2018.06.23-12.55.25:990][365]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.096
-[2018.06.23-12.55.25:990][365]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.096
-[2018.06.23-12.56.07:200][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.56.15:144][734]MapCheck: New page: Map Check
-[2018.06.23-12.56.15:166][734]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.56.15:170][734]LightingResults: New page: Lighting Build - Jun 23, 2018, 4:56:15 AM
-[2018.06.23-12.56.15:184][734]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.06.23-12.56.15:188][734]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.06.23-12.56.15:188][734]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.06.23-12.56.15:190][734]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.06.23-12.56.15:190][734]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17864
-[2018.06.23-12.56.19:721][734]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.06.23-12.56.19:721][734]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.06.23-12.56.19:721][734]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.06.23-12.56.19:721][734]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.06.23-12.56.19:721][734]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.06.23-12.56.19:721][734]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.06.23-12.56.19:906][734]LogEditorBuildUtils: Build time 0:04
-[2018.06.23-12.56.19:917][734]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock, compiling. 
-[2018.06.23-12.56.19:923][734]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock, compiling. 
-[2018.06.23-12.56.19:939][734]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.06.23-12.56.23:621][744]Job is a success!
-[2018.06.23-12.56.24:007][745]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
-[2018.06.23-12.56.24:008][745]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.06.23-12.56.24:008][745]LogVolumetricLightmapImport:      BrickData 40x5x5 = 0.0Mb
-[2018.06.23-12.56.24:008][745]LogVolumetricLightmapImport:      Bricks at Level
-[2018.06.23-12.56.24:008][745]LogVolumetricLightmapImport:          0: 12.5% covering 100.0% of volume
-[2018.06.23-12.56.24:008][745]LogVolumetricLightmapImport:          1: 12.5% covering 1.6% of volume
-[2018.06.23-12.56.24:008][745]LogVolumetricLightmapImport:          2: 75.0% covering 0.1% of volume
-[2018.06.23-12.56.24:089][745]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
-[2018.06.23-12.56.24:089][745]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
-[2018.06.23-12.56.24:089][745]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.06.23-12.56.24:089][745]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.06.23-12.56.24:089][745]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
-[2018.06.23-12.56.24:089][745]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 256X128)
-[2018.06.23-12.56.24:107][745]Lightmass on BARRYTHECHOPPA: 1.66 sec total, 191 ms importing, 27 ms setup, 393 ms photons, 991 ms processing, 0 ms extra exporting [4/4 mappings]. Threads: 6.77 sec total, 873 ms processing.
-[2018.06.23-12.56.24:147][745]LogStaticLightingSystem: Illumination: 8.63 sec (53 ms encoding lightmaps, 14 ms encoding shadowmaps)
-[2018.06.23-12.56.24:147][745]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.06.23-12.56.24:147][745]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.06.23-12.56.24:735][745]DumpUnbuiltLightIteractions
-[2018.06.23-12.56.24:735][745]Lights with unbuilt interactions: 0
-[2018.06.23-12.56.24:735][745]
-[2018.06.23-12.56.24:735][745]Primitives with unbuilt interactions: 0
-[2018.06.23-12.56.24:826][746]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.06.23-12.56.24:826][746]MapCheck: New page: NewMap - Jun 23, 2018, 4:56:24 AM
-[2018.06.23-12.56.24:926][746]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.369ms to complete.
-[2018.06.23-12.56.38:035][975]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.56.53:964][247]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.56.54:012][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-12.56.55:111][329]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-12.57.11:043][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.57.12:494][579]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.57.14:686][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-12.58.05:596][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
-[2018.06.23-12.58.07:074][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-12.58.11:250][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-13.02.44:131][843]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-13.02.45:326][946]MapCheck: New page: Map Check
-[2018.06.23-13.02.45:344][946]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-13.02.45:348][946]LightingResults: New page: Lighting Build - Jun 23, 2018, 5:02:45 AM
-[2018.06.23-13.02.45:362][946]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.06.23-13.02.45:378][946]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.06.23-13.02.45:378][946]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.06.23-13.02.45:379][946]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.06.23-13.02.45:379][946]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17864
-[2018.06.23-13.02.49:893][946]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.06.23-13.02.49:893][946]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.06.23-13.02.49:893][946]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.06.23-13.02.49:893][946]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.06.23-13.02.49:893][946]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.06.23-13.02.49:893][946]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.06.23-13.02.50:045][946]LogEditorBuildUtils: Build time 0:04
-[2018.06.23-13.02.51:788][ 10]Job is a success!
-[2018.06.23-13.02.51:839][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-13.02.51:871][ 12]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
-[2018.06.23-13.02.51:871][ 12]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.06.23-13.02.51:871][ 12]LogVolumetricLightmapImport:      BrickData 40x5x5 = 0.0Mb
-[2018.06.23-13.02.51:871][ 12]LogVolumetricLightmapImport:      Bricks at Level
-[2018.06.23-13.02.51:871][ 12]LogVolumetricLightmapImport:          0: 12.5% covering 100.0% of volume
-[2018.06.23-13.02.51:871][ 12]LogVolumetricLightmapImport:          1: 12.5% covering 1.6% of volume
-[2018.06.23-13.02.51:871][ 12]LogVolumetricLightmapImport:          2: 75.0% covering 0.1% of volume
-[2018.06.23-13.02.51:931][ 12]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
-[2018.06.23-13.02.51:931][ 12]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
-[2018.06.23-13.02.51:931][ 12]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.06.23-13.02.51:931][ 12]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.06.23-13.02.51:931][ 12]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
-[2018.06.23-13.02.51:931][ 12]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 256X128)
-[2018.06.23-13.02.51:945][ 12]Lightmass on BARRYTHECHOPPA: 1.26 sec total, 192 ms importing, 27 ms setup, 397 ms photons, 591 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 3.97 sec total, 671 ms processing.
-[2018.06.23-13.02.51:988][ 12]LogStaticLightingSystem: Illumination: 6.61 sec (36 ms encoding lightmaps, 13 ms encoding shadowmaps)
-[2018.06.23-13.02.51:988][ 12]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.06.23-13.02.51:988][ 12]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.06.23-13.02.52:899][ 12]DumpUnbuiltLightIteractions
-[2018.06.23-13.02.52:899][ 12]Lights with unbuilt interactions: 0
-[2018.06.23-13.02.52:899][ 12]
-[2018.06.23-13.02.52:899][ 12]Primitives with unbuilt interactions: 0
-[2018.06.23-13.02.52:912][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.23-13.02.52:986][ 13]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.06.23-13.02.52:987][ 13]MapCheck: New page: NewMap - Jun 23, 2018, 5:02:52 AM
-[2018.06.23-13.02.53:084][ 13]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.738ms to complete.
-[2018.06.23-13.02.56:630][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-13.02.58:634][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
-[2018.06.23-13.03.02:283][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-13.03.03:332][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
-[2018.06.23-13.03.54:575][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.23-13.04.06:210][325]MapCheck: New page: Map Check
-[2018.06.23-13.04.06:233][325]LightingResults: New page: Lighting Build - Jun 23, 2018, 5:04:06 AM
-[2018.06.23-13.04.06:248][325]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.06.23-13.04.06:253][325]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.06.23-13.04.06:253][325]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.06.23-13.04.06:254][325]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.06.23-13.04.06:254][325]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17864
-[2018.06.23-13.04.10:772][325]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.06.23-13.04.10:772][325]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.06.23-13.04.10:772][325]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.06.23-13.04.10:772][325]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.06.23-13.04.10:772][325]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.06.23-13.04.10:772][325]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.06.23-13.04.10:869][325]LogEditorBuildUtils: Build time 0:04
-[2018.06.23-13.04.12:681][331]Job is a success!
-[2018.06.23-13.04.13:069][332]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
-[2018.06.23-13.04.13:069][332]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.06.23-13.04.13:069][332]LogVolumetricLightmapImport:      BrickData 15x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
-[2018.06.23-13.04.13:069][332]LogVolumetricLightmapImport:      Bricks at Level
-[2018.06.23-13.04.13:069][332]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
-[2018.06.23-13.04.13:069][332]LogVolumetricLightmapImport:          1: 33.3% covering 1.6% of volume
-[2018.06.23-13.04.13:069][332]LogVolumetricLightmapImport:          2: 33.3% covering 0.0% of volume
-[2018.06.23-13.04.13:111][332]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
-[2018.06.23-13.04.13:112][332]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.06.23-13.04.13:112][332]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
-[2018.06.23-13.04.13:112][332]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.06.23-13.04.13:112][332]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
-[2018.06.23-13.04.13:112][332]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 128X128)
-[2018.06.23-13.04.13:163][332]Lightmass on BARRYTHECHOPPA: 1.60 sec total, 158 ms importing, 23 ms setup, 391 ms photons, 974 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 6.65 sec total, 216 ms processing.
-[2018.06.23-13.04.13:169][332]LogStaticLightingSystem: Illumination: 6.59 sec (11 ms encoding lightmaps, 20 ms encoding shadowmaps)
-[2018.06.23-13.04.13:169][332]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.06.23-13.04.13:170][332]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.06.23-13.04.13:779][332]DumpUnbuiltLightIteractions
-[2018.06.23-13.04.13:779][332]Lights with unbuilt interactions: 0
-[2018.06.23-13.04.13:779][332]
-[2018.06.23-13.04.13:779][332]Primitives with unbuilt interactions: 0
-[2018.06.23-13.04.13:851][333]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.06.23-13.04.13:851][333]MapCheck: New page: NewMap - Jun 23, 2018, 5:04:13 AM
-[2018.06.23-13.04.13:950][333]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.316ms to complete.
-[2018.06.23-13.04.17:036][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.06.23-13.04.17:116][397]LogSavePackage: Save=34.54ms
-[2018.06.23-13.04.17:116][397]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMapE806DC9548F0E32CF4696FB41C165414.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/NewMap.umap'
-[2018.06.23-13.04.17:123][397]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/NewMap.umap
-[2018.06.23-13.04.17:163][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2018.06.23-13.04.17:204][397]LogSavePackage: Save=30.96ms
-[2018.06.23-13.04.17:204][397]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltDataD4E2674745FCAD83E6C008A4E285E92D.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2018.06.23-13.04.17:210][397]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/NewMap_BuiltData.uasset
+[2018.06.28-22.01.07:288][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.28-22.01.07:288][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.28-22.01.07:321][  0]LogInit: Computer: BARRYTHECHOPPA
+[2018.06.28-22.01.07:321][  0]LogInit: User: Jerry
+[2018.06.28-22.01.07:321][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.28-22.01.07:321][  0]LogInit: High frequency timer resolution =3.429470 MHz
+[2018.06.28-22.01.07:321][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.06.28-22.01.07:321][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.28-22.01.07:322][  0]LogMemory: Process Physical Memory: 277.97 MB used, 277.97 MB peak
+[2018.06.28-22.01.07:322][  0]LogMemory: Process Virtual Memory: 265.36 MB used, 265.36 MB peak
+[2018.06.28-22.01.07:322][  0]LogMemory: Physical Memory: 4915.73 MB used,  3172.89 MB free, 8088.61 MB total
+[2018.06.28-22.01.07:322][  0]LogMemory: Virtual Memory: 4850.54 MB used,  3172.89 MB free, 134217728.00 MB total
+[2018.06.28-22.01.07:348][  0]LogInit: Using OS detected language (en-US).
+[2018.06.28-22.01.07:348][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.28-22.01.07:353][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.28-22.01.07:953][  0]LogStreaming: Display: Took  0.605s to EndInitTextLocalization.
+[2018.06.28-22.01.07:953][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.28-22.01.07:995][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.28-22.01.07:995][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.28-22.01.08:299][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.28-22.01.08:380][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.06.28-22.01.08:380][  0]LogD3D11RHI:       8096/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.28-22.01.08:382][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.28-22.01.08:382][  0]LogD3D11RHI:       0/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.28-22.01.08:382][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.28-22.01.08:392][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.28-22.01.08:392][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.28-22.01.08:392][  0]LogWindows: EnumDisplayDevices:
+[2018.06.28-22.01.08:392][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.06.28-22.01.08:392][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.06.28-22.01.08:393][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.06.28-22.01.08:393][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.06.28-22.01.08:393][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.28-22.01.08:393][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.06.28-22.01.08:393][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.28-22.01.08:393][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.28-22.01.08:393][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.06.28-22.01.08:445][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.06.28-22.01.08:445][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.28-22.01.08:445][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.28-22.01.08:506][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.06.28-22.01.08:558][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/8188/).
+[2018.06.28-22.01.08:558][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jerry/AppData/Local/Temp/UnrealShaderWorkingDir/436BE9364634348ABE5095BB31DD7A54/'.
+[2018.06.28-22.01.08:826][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.28-22.01.08:850][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.28-22.01.08:874][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.28-22.01.08:898][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.28-22.01.08:921][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.28-22.01.08:945][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.28-22.01.08:968][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.28-22.01.08:992][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.28-22.01.09:003][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.28-22.01.09:024][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.28-22.01.09:045][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.28-22.01.09:065][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.28-22.01.09:086][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.28-22.01.09:106][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.28-22.01.09:126][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.28-22.01.09:167][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.28-22.01.09:167][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.28-22.01.09:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.28-22.01.09:190][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.28-22.01.09:238][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.28-22.01.09:257][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.28-22.01.09:277][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.28-22.01.09:297][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.28-22.01.09:316][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.28-22.01.09:336][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.28-22.01.09:336][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.28-22.01.09:543][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.28-22.01.09:544][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.28-22.01.09:544][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.28-22.01.10:709][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.28-22.01.10:873][  0]LogDerivedDataCache: Loaded boot cache 0.16s 74MB C:/Users/Jerry/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.28-22.01.10:873][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jerry/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.28-22.01.10:874][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.28-22.01.10:874][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.28-22.01.10:874][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.28-22.01.10:874][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.28-22.01.10:896][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.28-22.01.10:909][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jerry/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.28-22.01.10:930][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.28-22.01.10:930][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.28-22.01.10:931][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.28-22.01.10:931][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.28-22.01.11:124][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
+[2018.06.28-22.01.11:657][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.28-22.01.11:888][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.28-22.01.11:893][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.28-22.01.11:893][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.28-22.01.11:893][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.28-22.01.11:893][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.28-22.01.11:893][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.28-22.01.11:955][  0]LogNetVersion: BuildingEscape , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4285820645)
+[2018.06.28-22.01.12:662][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.097540 seconds
+[2018.06.28-22.01.12:670][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.28-22.01.12:670][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.06.28-22.01.12:670][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.28-22.01.15:263][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.28-22.01.15:311][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.28-22.01.15:984][  0]SourceControl: Source control is disabled
+[2018.06.28-22.01.15:984][  0]SourceControl: Source control is disabled
+[2018.06.28-22.01.16:019][  0]SourceControl: Source control is disabled
+[2018.06.28-22.01.16:054][  0]SourceControl: Source control is disabled
+[2018.06.28-22.01.16:922][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.28-22.01.17:320][  0]LogOcInput: OculusInput pre-init called
+[2018.06.28-22.01.17:507][  0]LogEngine: Initializing Engine...
+[2018.06.28-22.01.18:283][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-37EA19E6
+[2018.06.28-22.01.18:286][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.28-22.01.18:286][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.28-22.01.19:538][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.28-22.01.19:711][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.28-22.01.19:759][  0]LogInit: FAudioDevice initialized.
+[2018.06.28-22.01.19:894][  0]LogDerivedDataCache: Saved boot cache 0.13s 74MB C:/Users/Jerry/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.28-22.01.19:946][  0]LogInit: Texture streaming: Enabled
+[2018.06.28-22.01.19:988][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.28-22.01.20:021][  0]LogInit: Transaction tracking system initialized
+[2018.06.28-22.01.20:076][  0]BlueprintLog: New page: Editor Load
+[2018.06.28-22.01.20:238][  0]LocalizationService: Localization service is disabled
+[2018.06.28-22.01.20:420][  0]LogConsoleResponse: Display: 
+[2018.06.28-22.01.20:677][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.28-22.01.20:678][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.28-22.01.20:678][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.28-22.01.20:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.28-22.01.20:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.28-22.01.21:462][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/' took 0.02s
+[2018.06.28-22.01.21:462][  0]SourceControl: Source control is disabled
+[2018.06.28-22.01.21:572][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.28-22.01.21:575][  0]LogSlate: Took 0.000556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.28-22.03.37:398][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.06.28-22.03.37:398][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.28-22.03.37:400][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.28-22.05.41:497][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2018.06.28-22.05.41:498][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.28-22.05.41:500][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.28-22.05.41:673][  0]Cmd: MAP LOAD FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.28-22.05.41:674][  0]LightingResults: New page: Lighting Build
+[2018.06.28-22.05.41:680][  0]MapCheck: New page: Map Check
+[2018.06.28-22.05.41:680][  0]LightingResults: New page: Lighting Build
+[2018.06.28-22.05.42:391][  0]LogAIModule: Creating AISystem for world NewMap
+[2018.06.28-22.05.42:404][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.28-22.05.42:441][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.28-22.05.42:542][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.584ms to complete.
+[2018.06.28-22.05.42:542][  0]LogFileHelpers: Loading map 'NewMap' took 0.869
+[2018.06.28-22.05.42:798][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2c58_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_308c_0///####STATCAT_Advanced####
+[2018.06.28-22.05.42:798][  0]LogCollectionManager: Loaded 0 collections in 0.003490 seconds
+[2018.06.28-22.05.42:886][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Collections/' took 0.01s
+[2018.06.28-22.05.42:886][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/Developers/Jerry/Collections/' took 0.01s
+[2018.06.28-22.05.42:886][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/Collections/' took 0.01s
+[2018.06.28-22.05.42:887][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.28-22.05.42:909][  0]LogContentBrowser: Native class hierarchy populated in 0.0198 seconds. Added 2455 classes and 560 folders.
+[2018.06.28-22.05.42:935][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.28-22.05.43:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.28-22.05.43:481][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.06.28-22.05.43:635][  0]LogSlate: Took 0.000566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.28-22.05.43:655][  0]LogSlate: Took 0.008513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.28-22.05.43:663][  0]LogSlate: Took 0.007176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.06.28-22.05.44:026][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.06.28-22.05.44:353][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.28-22.05.44:353][  0]LogLoad: (Engine Initialization) Total time: 339.65 seconds
+[2018.06.28-22.05.44:354][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.28-22.05.44:721][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.28-22.05.45:079][  2]LogAssetRegistry: Asset discovery search completed in 273.9779 seconds
+[2018.06.28-22.05.45:084][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.28-22.05.45:084][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000531 seconds (updated 0 objects)
+[2018.06.28-22.05.59:801][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2018.06.28-22.06.15:929][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-22.06.15:948][822]LogSlate: Took 0.006194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.28-22.06.43:738][160]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.28-22.06.43:772][160]LogMaterial: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2018.06.28-22.06.44:567][160]LogMaterial: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2018.06.28-22.06.44:585][160]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-22.06.44:585][160]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-22.06.44:585][160]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-22.06.44:585][160]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-22.06.44:611][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.06.28-22.06.44:616][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.06.28-22.06.44:621][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2018.06.28-22.06.44:627][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2018.06.28-22.06.44:632][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2018.06.28-22.06.44:636][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2018.06.28-22.06.44:643][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2018.06.28-22.06.44:672][160]LogSlate: Took 0.007954 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.28-22.06.45:878][170]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.06.28-22.06.45:935][171]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.06.28-22.06.45:982][171]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.06.28-22.06.46:084][173]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.06.28-22.06.46:326][176]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.06.28-22.06.46:387][178]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.06.28-22.06.46:495][182]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.06.28-22.06.46:936][196]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.06.28-22.06.47:006][198]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.28-22.06.47:191][204]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.28-22.06.47:285][207]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-22.06.47:320][208]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-22.06.47:676][218]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-22.06.47:717][219]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-22.06.47:908][225]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-22.06.47:946][226]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-22.06.48:032][229]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-22.06.48:245][236]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-22.06.48:257][236]MaterialEditorStats: Base pass shader: 140 instructions
+[2018.06.28-22.06.48:257][236]MaterialEditorStats: Base pass shader with Surface Lightmap: 157 instructions
+[2018.06.28-22.06.48:258][236]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 213 instructions
+[2018.06.28-22.06.48:258][236]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-22.06.48:258][236]MaterialEditorStats: Texture samplers: 7/16
+[2018.06.28-22.06.48:258][236]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-22.06.48:295][237]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-22.06.48:359][239]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-22.06.48:494][243]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-22.06.48:599][246]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-22.06.48:690][249]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-22.06.48:754][251]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-22.06.48:912][256]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-22.06.48:912][256]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-22.06.49:100][262]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-22.06.49:163][264]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-22.06.52:313][364]LogSlate: Took 0.007540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.28-22.07.07:360][  7]LogSlate: Window 'M_Ground_Moss' being destroyed
+[2018.06.28-22.07.07:362][  7]LogSlate: Window 'M_Ground_Moss' being destroyed
+[2018.06.28-22.15.44:987][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.06.28-22.15.45:066][  6]LogSavePackage: Save=58.01ms
+[2018.06.28-22.15.45:067][  6]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto1CBDBA500450F774C1CD1E2945A70FC50.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2018.06.28-22.15.45:070][  6]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto1.umap
+[2018.06.28-22.15.45:073][  6]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.142
+[2018.06.28-22.15.45:074][  6]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2018.06.28-23.08.55:928][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.08.58:993][801]Cmd: STAT FPS
+[2018.06.28-23.09.03:143][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.09.04:273][210]Cmd: STAT FPS
+[2018.06.28-23.09.06:974][421]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.09.08:128][516]Cmd: STAT FPS
+[2018.06.28-23.09.29:971][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.28-23.09.36:356][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.28-23.09.43:477][579]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.09.51:719][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.10.07:667][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.10.26:607][208]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.11.47:345][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.11.51:857][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.11.54:677][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.11.59:588][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.13:861][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.19:452][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.29:338][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.36:351][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.43:717][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.48:468][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.49:604][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.51:176][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.52:866][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.54:657][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.57:587][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.12.58:727][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.00:424][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.07:540][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.09:692][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.11:600][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.13:697][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.17:174][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.18:849][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.20:511][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.21:874][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.23:972][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.25:822][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.28:750][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.31:034][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.13.41:902][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2018.06.28-23.13.53:239][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.14.07:157][ 33]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.14.07:291][ 33]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.14.07:304][ 33]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.14.07:323][ 33]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.14.07:323][ 33]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.14.07:323][ 33]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.14.07:323][ 33]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.14.07:349][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.06.28-23.14.07:353][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.06.28-23.14.07:359][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.14.07:365][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.14.07:372][ 33]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.06.28-23.14.08:220][ 57]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.06.28-23.14.08:309][ 61]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.06.28-23.14.08:335][ 62]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.06.28-23.14.08:336][ 62]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.06.28-23.14.08:520][ 69]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.28-23.14.08:614][ 73]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.28-23.14.08:615][ 73]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.14.08:895][ 84]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.14.09:126][ 92]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.14.09:218][ 96]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.14.09:241][ 97]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.14.09:242][ 97]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.14.09:607][110]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.14.09:758][116]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.14.09:808][118]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.14.09:892][121]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.14.10:082][128]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.14.10:150][130]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.14.10:178][131]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.14.10:178][131]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.14.10:179][131]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.14.10:179][131]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.14.10:179][131]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.14.10:179][131]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.14.10:252][134]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.14.10:252][134]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.14.10:452][139]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.14.10:589][143]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.14.10:616][144]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.14.10:690][147]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.14.55:473][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.15.20:312][707]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.15.20:332][707]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.15.20:332][707]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.15.20:332][707]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.15.20:332][707]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.15.20:333][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.15.21:322][743]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.15.21:375][745]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.15.21:375][745]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.15.21:424][747]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.15.21:670][756]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.15.21:700][757]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.15.21:701][757]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.15.22:044][769]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.15.22:388][781]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.15.22:389][781]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.15.22:439][783]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.15.22:465][784]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.15.22:848][796]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.15.23:047][804]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.15.23:072][805]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.15.23:127][807]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.15.23:464][819]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.15.23:483][819]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.15.23:484][819]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.15.23:484][819]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.15.23:486][819]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.15.23:514][819]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.15.23:514][819]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.28-23.15.23:844][831]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.15.23:894][833]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.15.23:895][833]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.15.23:920][834]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.15.24:117][841]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.15.24:201][844]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.15.24:201][844]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.15.24:502][854]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.15.24:806][864]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.15.24:833][865]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.15.24:915][868]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.15.24:916][868]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.15.25:296][880]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.15.25:493][888]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.15.25:520][889]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.15.25:575][891]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.15.25:909][902]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.15.25:910][902]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.15.25:910][902]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.15.25:910][902]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.15.25:911][902]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.15.25:911][902]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.15.32:795][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.15.32:855][312]LogMaterialEditor: Saving and Compiling material M_Chair
+[2018.06.28-23.15.33:765][312]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.15.33:816][312]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.15.33:816][312]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.15.33:816][312]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.15.33:817][312]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.15.33:847][312]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.15.33:900][312]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.15.33:971][312]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.06.28-23.15.35:824][312]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.06.28-23.15.35:825][312]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.06.28-23.15.35:825][312]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.06.28-23.15.35:825][312]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.06.28-23.15.35:825][312]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.06.28-23.15.35:826][312]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.06.28-23.15.35:826][312]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.06.28-23.15.35:826][312]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.06.28-23.15.35:826][312]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.06.28-23.15.35:827][312]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.06.28-23.15.35:827][312]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.06.28-23.15.35:827][312]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.06.28-23.15.35:827][312]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.06.28-23.15.35:827][312]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.06.28-23.15.35:828][312]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.06.28-23.15.35:828][312]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.06.28-23.15.35:828][312]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.06.28-23.15.35:828][312]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.15.35:828][312]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.15.35:834][312]TextureStreamingBuild: Display: Compiling optional shaders took 1.873 seconds.
+[2018.06.28-23.15.35:912][312]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.15.39:071][312]LogSavePackage: Save=27.66ms
+[2018.06.28-23.15.39:072][312]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/M_Chair6563C3094D5AF61315C74C896474D8F0.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2018.06.28-23.15.39:075][312]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2018.06.28-23.15.45:400][686]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.15.47:604][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.15.53:753][135]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.15.53:773][135]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.15.53:774][135]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.15.53:774][135]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.15.53:774][135]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.15.53:777][135]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.15.54:099][146]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.15.54:123][147]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.15.54:146][148]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.15.54:147][148]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.15.54:394][157]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.15.54:394][157]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.15.54:428][158]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.15.54:725][167]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.15.55:078][177]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.15.55:112][178]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.15.55:141][179]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.15.55:141][179]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.15.55:417][188]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.15.55:453][188]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.28-23.15.55:460][188]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.15.55:492][188]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.28-23.15.55:687][195]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.28-23.15.55:853][200]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.28-23.15.55:893][201]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.15.56:030][205]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.15.56:157][209]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.15.56:214][211]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.15.56:264][213]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.15.56:314][215]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.15.56:452][220]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.15.56:498][222]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.15.56:547][224]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.15.56:884][235]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.15.57:066][240]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.15.57:067][240]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.15.57:161][243]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.15.57:239][246]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.15.57:571][256]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.15.57:734][262]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.15.57:763][263]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.15.57:794][264]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.15.58:160][276]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.15.58:161][276]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.15.58:161][276]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.15.58:161][276]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.15.58:161][276]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.15.58:161][276]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.16.24:806][ 69]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.16.24:824][ 69]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.24:824][ 69]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.16.24:824][ 69]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.24:824][ 69]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.24:825][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.16.25:640][100]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.25:688][102]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.25:713][103]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.16.25:713][103]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.16.25:921][111]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.16.25:996][114]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.16.25:996][114]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.16.26:290][124]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.16.26:540][133]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.16.26:589][135]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.16.26:589][135]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.16.26:590][135]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.16.26:946][147]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.16.26:951][147]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.16.26:985][147]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.16.27:013][147]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.28-23.16.27:157][153]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.28-23.16.27:187][154]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.28-23.16.27:297][158]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.27:494][166]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.16.27:532][167]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.27:562][168]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.27:662][172]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.16.27:772][176]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.16.27:796][177]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.16.27:849][179]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.16.27:917][182]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.16.28:289][195]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.16.28:356][198]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.16.28:402][200]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.16.28:474][203]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.16.28:601][208]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.16.28:831][214]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.16.29:003][220]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.16.29:056][222]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.16.29:137][225]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.16.29:398][234]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.16.29:398][234]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.16.29:399][234]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.16.29:399][234]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.16.29:399][234]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.16.29:399][234]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.16.36:292][643]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.16.36:311][643]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.36:311][643]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.16.36:311][643]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.36:311][643]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.36:313][643]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.16.36:341][643]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.28-23.16.36:689][656]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.36:689][656]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.36:715][657]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.16.36:715][657]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.16.36:985][667]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.16.36:985][667]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.16.37:012][668]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.16.37:263][678]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.16.37:565][687]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.16.37:591][688]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.16.37:623][689]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.16.37:624][689]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.16.37:990][701]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.16.38:186][709]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.16.38:246][711]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.16.38:271][712]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.16.40:301][844]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.16.40:318][844]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.40:318][844]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.16.40:318][844]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.40:318][844]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.40:321][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.16.40:642][855]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.40:642][855]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.40:670][856]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.16.40:695][857]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.16.40:901][865]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.16.40:901][865]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.16.40:924][866]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.16.41:179][877]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.16.41:417][887]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.16.41:438][888]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.16.41:463][889]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.16.41:484][890]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.16.41:805][902]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.16.41:985][911]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.16.42:009][912]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.16.42:059][914]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.16.44:037][ 44]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.16.44:054][ 44]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.44:055][ 44]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.16.44:055][ 44]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.44:055][ 44]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.44:057][ 44]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.16.44:379][ 55]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.44:407][ 56]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.44:429][ 57]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.16.44:430][ 57]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.16.44:631][ 65]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.16.44:658][ 66]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.16.44:687][ 67]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.16.44:914][ 76]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.16.45:184][ 86]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.16.45:228][ 88]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.16.45:236][ 88]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.16.45:249][ 88]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.16.45:260][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.16.45:277][ 88]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.28-23.16.45:289][ 88]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.28-23.16.45:674][101]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.28-23.16.45:698][102]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.45:839][108]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.16.45:954][112]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.46:029][115]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.46:078][117]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.16.46:129][119]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.16.46:222][123]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.16.46:291][126]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.16.46:336][128]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.16.47:044][161]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.16.47:045][161]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.16.47:045][161]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.16.47:045][161]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.16.47:320][175]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.16.47:530][184]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.16.47:627][187]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.16.47:824][195]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.16.47:901][197]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.16.48:114][204]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.16.48:115][204]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.16.48:115][204]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.16.48:115][204]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.16.48:116][204]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.16.48:116][204]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.16.50:971][381]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.16.50:988][381]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.50:988][381]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.16.50:988][381]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.50:988][381]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.50:989][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.16.51:292][391]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.51:317][392]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.51:342][393]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.16.51:342][393]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.16.51:560][402]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.16.51:586][403]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.16.51:617][404]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.16.52:045][420]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.16.52:259][431]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.16.52:270][431]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.16.52:270][431]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.16.52:279][431]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.16.52:296][431]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.52:296][431]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.28-23.16.52:308][431]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.28-23.16.52:593][441]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.16.52:659][444]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.16.52:680][445]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.16.52:680][445]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.16.52:921][454]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.16.52:946][455]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.16.52:969][456]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.16.52:970][456]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.16.53:155][464]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.16.53:467][475]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.16.53:538][478]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.16.53:538][478]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.16.53:696][485]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.16.53:775][488]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.16.54:049][496]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.16.54:136][499]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.16.54:207][502]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.16.54:282][505]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.16.54:563][515]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.16.54:564][515]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.16.54:564][515]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.16.54:564][515]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.16.54:564][515]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.16.54:565][515]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.17.00:955][900]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.17.00:977][900]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.17.00:977][900]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.17.00:977][900]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.00:977][900]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.00:978][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.17.01:284][911]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.01:308][912]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.01:331][913]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.17.01:331][913]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.17.01:545][922]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.17.01:569][923]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.17.01:594][924]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.17.01:831][934]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.17.02:068][944]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.17.02:108][946]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.17.02:129][947]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.17.02:149][948]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.17.02:456][960]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.17.02:669][971]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.17.02:693][972]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.17.02:694][972]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.17.17:357][975]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.17.17:373][975]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.17.17:373][975]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.17.17:373][975]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.17:373][975]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.17:376][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.17.17:706][986]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.17:731][987]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.17:731][987]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.17.17:731][987]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.17.17:951][996]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.17.17:980][997]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.17.18:016][998]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.17.18:281][  8]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.17.18:539][ 18]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.17.18:564][ 19]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.17.18:589][ 20]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.17.18:589][ 20]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.17.18:909][ 31]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.17.19:115][ 39]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.17.19:145][ 40]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.17.19:181][ 41]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.17.19:468][ 51]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.17.19:469][ 51]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.17.19:469][ 51]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.17.19:469][ 51]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.17.19:469][ 51]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.17.19:469][ 51]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.17.22:934][260]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.17.22:955][260]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.17.22:955][260]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.17.22:955][260]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.22:955][260]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.22:956][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.17.22:981][260]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.28-23.17.23:325][273]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.23:370][275]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.23:370][275]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.17.23:370][275]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.17.23:584][284]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.17.23:643][286]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.17.23:643][286]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.17.23:932][296]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.17.24:169][304]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.17.24:222][306]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.17.24:249][307]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.17.24:250][307]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.17.24:586][317]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.17.24:733][324]LogMaterialEditor: Saving and Compiling material M_Chair
+[2018.06.28-23.17.25:749][324]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.17.25:749][324]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.17.25:750][324]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.17.25:767][324]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.17.25:819][324]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.17.25:819][324]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.17.25:819][324]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.25:819][324]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.25:843][324]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.17.25:892][324]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.17.25:957][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.06.28-23.17.28:145][324]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.06.28-23.17.28:145][324]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.06.28-23.17.28:146][324]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.06.28-23.17.28:146][324]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.06.28-23.17.28:146][324]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.06.28-23.17.28:146][324]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.06.28-23.17.28:146][324]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.06.28-23.17.28:147][324]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.06.28-23.17.28:147][324]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.06.28-23.17.28:147][324]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.06.28-23.17.28:147][324]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.06.28-23.17.28:147][324]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.06.28-23.17.28:148][324]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.06.28-23.17.28:148][324]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.06.28-23.17.28:148][324]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.06.28-23.17.28:148][324]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.06.28-23.17.28:149][324]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.06.28-23.17.28:149][324]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.17.28:149][324]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.17.28:152][324]TextureStreamingBuild: Display: Compiling optional shaders took 2.204 seconds.
+[2018.06.28-23.17.31:222][324]LogSavePackage: Save=25.18ms
+[2018.06.28-23.17.31:222][324]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/M_ChairF534F1284A911D7063D46E8965F9D7B1.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2018.06.28-23.17.31:225][324]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2018.06.28-23.17.31:238][324]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.17.31:238][324]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.17.31:239][324]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.17.31:239][324]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.17.31:239][324]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.17.31:239][324]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.17.38:258][346]LogSlate: Window 'M_Chair' being destroyed
+[2018.06.28-23.17.38:263][346]LogSlate: Window 'M_Chair' being destroyed
+[2018.06.28-23.17.49:622][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.17.49:799][497]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.06.28-23.17.49:921][497]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.06.28-23.17.49:937][497]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.06.28-23.17.49:955][497]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.17.49:955][497]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.17.49:955][497]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.49:955][497]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.49:981][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.06.28-23.17.49:986][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.06.28-23.17.49:992][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2018.06.28-23.17.49:998][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.17.50:004][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2018.06.28-23.17.50:293][500]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.06.28-23.17.50:293][500]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.06.28-23.17.50:579][511]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.06.28-23.17.50:606][512]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.06.28-23.17.50:854][521]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.28-23.17.50:886][522]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.28-23.17.50:919][523]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.17.51:174][532]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.17.51:549][544]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.17.51:571][545]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.17.51:572][545]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.17.51:594][546]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.17.51:971][560]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.17.52:157][568]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.17.52:210][570]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.17.52:275][572]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.17.52:529][581]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.17.52:563][582]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.17.52:669][586]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.17.52:693][587]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.17.52:931][595]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.17.52:962][596]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.17.53:056][599]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.17.53:132][602]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.17.56:828][832]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.17.56:828][832]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.17.56:829][832]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.17.56:829][832]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.17.56:829][832]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.17.56:829][832]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.18.05:774][362]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.06.28-23.18.05:795][362]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.18.05:795][362]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.18.05:795][362]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.18.05:795][362]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.18.05:795][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.18.06:168][373]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.18.06:169][373]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.18.06:199][374]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.18.06:227][375]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.18.06:455][383]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.18.06:482][384]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.18.06:513][385]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.18.06:523][385]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.06.28-23.18.06:553][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2018.06.28-23.18.06:583][385]LogSlate: Window 'Color Picker' being destroyed
+[2018.06.28-23.18.06:815][392]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.28-23.18.07:141][403]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.28-23.18.07:166][404]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.18.07:197][405]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.18.07:223][406]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.18.07:511][416]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.18.07:536][417]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.28-23.18.07:537][417]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.28-23.18.07:537][417]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.28-23.18.07:828][428]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.18.07:829][428]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.28-23.18.08:156][439]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.28-23.18.08:193][440]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.28-23.18.08:416][448]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.28-23.18.08:479][450]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.28-23.18.08:511][451]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.28-23.18.08:861][462]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.28-23.18.08:892][463]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.28-23.18.09:077][470]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.28-23.18.09:146][472]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.18.09:428][482]MaterialEditorStats: Base pass shader: 122 instructions
+[2018.06.28-23.18.09:428][482]MaterialEditorStats: Base pass shader with Surface Lightmap: 139 instructions
+[2018.06.28-23.18.09:429][482]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2018.06.28-23.18.09:429][482]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.06.28-23.18.09:429][482]MaterialEditorStats: Texture samplers: 5/16
+[2018.06.28-23.18.09:429][482]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.06.28-23.18.12:209][642]LogMaterialEditor: Saving and Compiling material M_Chair
+[2018.06.28-23.18.13:138][642]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.06.28-23.18.13:188][642]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.28-23.18.13:189][642]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.28-23.18.13:189][642]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.28-23.18.13:189][642]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.28-23.18.13:212][642]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.18.13:263][642]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.06.28-23.18.13:329][642]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.06.28-23.18.15:034][642]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.06.28-23.18.15:035][642]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.06.28-23.18.15:035][642]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.06.28-23.18.15:035][642]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.06.28-23.18.15:035][642]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.06.28-23.18.15:035][642]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.06.28-23.18.15:036][642]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.06.28-23.18.15:036][642]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.06.28-23.18.15:036][642]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.06.28-23.18.15:036][642]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.06.28-23.18.15:036][642]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.06.28-23.18.15:036][642]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.06.28-23.18.15:037][642]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.06.28-23.18.15:037][642]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.06.28-23.18.15:037][642]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.06.28-23.18.15:037][642]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.06.28-23.18.15:037][642]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.06.28-23.18.15:037][642]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.28-23.18.15:038][642]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.28-23.18.15:039][642]TextureStreamingBuild: Display: Compiling optional shaders took 1.719 seconds.
+[2018.06.28-23.18.15:092][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.18.18:194][642]LogSavePackage: Save=25.19ms
+[2018.06.28-23.18.18:194][642]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/M_ChairB56DACE54A8F31FD657859A8463EBFC0.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset'
+[2018.06.28-23.18.18:197][642]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2018.06.28-23.18.23:269][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.18.34:494][949]LogSlate: Window 'M_Chair' being destroyed
+[2018.06.28-23.18.34:503][949]LogSlate: Window 'M_Chair' being destroyed
+[2018.06.28-23.18.36:163][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.28-23.19.16:787][292]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.19.17:124][327]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.19.17:913][416]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.19.19:061][549]Cmd: STAT FPS
+[2018.06.28-23.19.44:338][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.06.28-23.19.44:399][ 49]LogSavePackage: Save=49.91ms
+[2018.06.28-23.19.44:399][ 49]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto2A22069D94103B81973ED6B89AC03C082.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2018.06.28-23.19.44:401][ 49]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2018.06.28-23.19.44:403][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.105
+[2018.06.28-23.19.44:403][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.105
+[2018.06.28-23.30.55:308][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.30.58:525][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.40.12:375][772]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.06.28-23.44.50:288][510]LogHotReload: New module detected: UE4Editor-BuildingEscape-9136.dll
+[2018.06.28-23.44.51:634][515]LogHotReload: Starting Hot-Reload from IDE
+[2018.06.28-23.44.51:707][515]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape for HotReload, assuming new class
+[2018.06.28-23.44.51:712][515]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2018.06.28-23.44.51:837][515]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0012 seconds. Added 3 classes and 2 folders.
+[2018.06.28-23.44.51:840][515]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.28-23.44.52:019][515]LogContentBrowser: Native class hierarchy populated in 0.0201 seconds. Added 2456 classes and 562 folders.
+[2018.06.28-23.44.52:042][515]Display: HotReload took  0.4s.
+[2018.06.28-23.46.26:141][466]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x303)
+[2018.06.28-23.46.26:253][466]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.28-23.46.28:722][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.06.28-23.46.30:336][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.49.49:940][634]LogHotReload: New module detected: UE4Editor-BuildingEscape-7882.dll
+[2018.06.28-23.49.50:958][638]LogHotReload: Starting Hot-Reload from IDE
+[2018.06.28-23.49.51:047][638]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape for HotReload, assuming new class
+[2018.06.28-23.49.51:054][638]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2018.06.28-23.49.51:121][638]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0012 seconds. Added 3 classes and 2 folders.
+[2018.06.28-23.49.51:125][638]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.28-23.49.51:235][638]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2456 classes and 562 folders.
+[2018.06.28-23.49.51:248][638]Display: HotReload took  0.3s.
+[2018.06.28-23.50.47:268][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.51.54:793][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.52.26:825][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.06.28-23.52.26:896][783]LogSavePackage: Save=58.35ms
+[2018.06.28-23.52.26:896][783]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto360D3087D4F9788017713B8B4BB45F8E5.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2018.06.28-23.52.26:898][783]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto3.umap
+[2018.06.28-23.52.26:901][783]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.118
+[2018.06.28-23.52.26:901][783]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.118
+[2018.06.28-23.52.37:805][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.52.41:426][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.28-23.52.42:699][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.28-23.52.44:011][581]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2018.06.28-23.52.49:510][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.06.28-23.52.54:028][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.28-23.53.16:654][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2018.06.28-23.53.18:305][293]Cmd: DELETE
+[2018.06.28-23.53.18:305][293]Cmd: ACTOR DELETE
+[2018.06.28-23.53.18:322][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.28-23.53.18:362][293]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2018.06.28-23.53.23:180][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.06.28-23.59.44:134][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.06.28-23.59.46:135][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.29-00.02.27:711][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.06.29-00.02.27:784][996]LogSavePackage: Save=61.03ms
+[2018.06.29-00.02.27:784][996]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto403E23C7D48B27255A5F518B9990B30F1.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2018.06.29-00.02.27:786][996]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto4.umap
+[2018.06.29-00.02.27:789][996]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.110
+[2018.06.29-00.02.27:789][996]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.110
+[2018.06.29-00.04.05:177][586]LogHotReload: New module detected: UE4Editor-BuildingEscape-5430.dll
+[2018.06.29-00.04.06:228][632]LogHotReload: Starting Hot-Reload from IDE
+[2018.06.29-00.04.06:326][632]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape for HotReload, assuming new class
+[2018.06.29-00.04.06:330][632]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2018.06.29-00.04.06:410][632]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2018.06.29-00.04.06:413][632]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.29-00.04.06:516][632]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 2456 classes and 562 folders.
+[2018.06.29-00.04.06:529][632]Display: HotReload took  0.3s.
+[2018.06.29-00.09.04:770][ 98]LogHotReload: New module detected: UE4Editor-BuildingEscape-3763.dll
+[2018.06.29-00.09.05:807][144]LogHotReload: Starting Hot-Reload from IDE
+[2018.06.29-00.09.05:925][144]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2018.06.29-00.09.05:930][144]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.29-00.09.06:041][144]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2456 classes and 562 folders.
+[2018.06.29-00.09.06:055][144]Display: HotReload took  0.2s.
+[2018.06.29-00.09.21:312][921]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.29-00.09.21:342][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.29-00.09.21:359][921]PIE: New page: PIE session: NewMap (Jun 28, 2018, 4:09:21 PM)
+[2018.06.29-00.09.21:360][921]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.06.29-00.09.21:377][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017099s)
+[2018.06.29-00.09.21:380][921]LogAIModule: Creating AISystem for world NewMap
+[2018.06.29-00.09.21:382][921]LogPlayLevel: PIE: World Init took: (0.004145s)
+[2018.06.29-00.09.21:382][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.022189s)
+[2018.06.29-00.09.21:464][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.29-00.09.21:485][921]LogInit: FAudioDevice initialized.
+[2018.06.29-00.09.21:536][921]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2018.06.29-00.09.21:536][921]LogLoad: Game class is 'GameModeBase'
+[2018.06.29-00.09.21:551][921]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.06.28-20.09.21
+[2018.06.29-00.09.21:556][921]LogWorld: Bringing up level for play took: 0.006386
+[2018.06.29-00.09.21:848][921]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.06.29-00.09.21:854][921]LogTemp: Warning: SM_Chair_2 is at X=435.000 Y=-110.000 Z=20.000 
+[2018.06.29-00.09.21:855][921]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.18
+[2018.06.29-00.09.42:560][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.06.29-00.09.45:412][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.29-00.09.47:697][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2018.06.29-00.09.54:137][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.29-00.09.57:066][224]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.29-00.09.57:089][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.29-00.09.57:089][224]PIE: New page: PIE session: NewMap (Jun 28, 2018, 4:09:57 PM)
+[2018.06.29-00.09.57:090][224]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.06.29-00.09.57:097][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006756s)
+[2018.06.29-00.09.57:098][224]LogAIModule: Creating AISystem for world NewMap
+[2018.06.29-00.09.57:098][224]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2018.06.29-00.09.57:098][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008676s)
+[2018.06.29-00.09.57:179][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.29-00.09.57:198][224]LogInit: FAudioDevice initialized.
+[2018.06.29-00.09.57:248][224]LogLoad: Game class is 'GameModeBase'
+[2018.06.29-00.09.57:250][224]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.06.28-20.09.57
+[2018.06.29-00.09.57:251][224]LogWorld: Bringing up level for play took: 0.001752
+[2018.06.29-00.09.57:252][224]LogTemp: Warning: SM_Chair_2 is at X=435.000 Y=-110.000 Z=20.000 
+[2018.06.29-00.09.57:252][224]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.784
+[2018.06.29-00.10.09:738][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2018.06.29-00.10.14:630][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.29-00.11.57:270][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.29-00.11.59:407][841]MapCheck: New page: Map Check
+[2018.06.29-00.11.59:434][841]Cmd: MAP REBUILD ALLVISIBLE
+[2018.06.29-00.11.59:434][841]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.06.29-00.11.59:592][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.06.29-00.11.59:601][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.06.29-00.11.59:608][841]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.29-00.11.59:608][841]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.29-00.11.59:608][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.06.29-00.11.59:616][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.06.29-00.11.59:624][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.06.29-00.11.59:631][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2018.06.29-00.11.59:648][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.06.29-00.11.59:656][841]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.29-00.11.59:657][841]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.29-00.11.59:657][841]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
+[2018.06.29-00.12.01:356][841]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.29-00.12.01:356][841]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.29-00.12.01:356][841]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.29-00.12.01:356][841]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.29-00.12.01:356][841]TextureStreamingBuild: Display: Compiling optional shaders took 1.819 seconds.
+[2018.06.29-00.12.01:418][841]LogLevel: Display: Export Material TexCoord Scales took 0.062 seconds.
+[2018.06.29-00.12.01:461][841]TextureStreamingBuild: Display: Build Texture Streaming took 0.040 seconds.
+[2018.06.29-00.12.01:504][841]LightingResults: New page: Lighting Build - Jun 28, 2018, 4:12:01 PM
+[2018.06.29-00.12.01:689][841]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.29-00.12.01:917][841]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.29-00.12.01:945][841]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.29-00.12.02:976][841]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.29-00.12.02:976][841]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8188
+[2018.06.29-00.12.08:157][841]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.06.29-00.12.08:159][841]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.29-00.12.08:159][841]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.29-00.12.08:160][841]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.29-00.12.08:160][841]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.29-00.12.08:160][841]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.29-00.12.08:304][841]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.06.29-00.12.08:304][841]MapCheck: New page: NewMap - Jun 28, 2018, 4:12:08 PM
+[2018.06.29-00.12.08:306][841]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.06.29-00.12.08:782][841]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 477.428ms to complete.
+[2018.06.29-00.12.08:806][841]LogEditorBuildUtils: Build time 0:09
+[2018.06.29-00.12.08:823][841]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.29-00.12.08:854][841]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.06.29-00.12.08:863][841]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.06.29-00.12.08:904][841]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.29-00.12.08:905][841]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.29-00.12.09:002][843]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2018.06.29-00.12.09:011][843]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.29-00.12.09:012][843]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2018.06.29-00.12.09:028][844]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.29-00.12.13:917][ 77]Job is a success!
+[2018.06.29-00.12.14:008][ 78]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2018.06.29-00.12.14:009][ 78]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.06.29-00.12.14:009][ 78]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.06.29-00.12.14:009][ 78]LogVolumetricLightmapImport:      Bricks at Level
+[2018.06.29-00.12.14:009][ 78]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.06.29-00.12.14:009][ 78]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2018.06.29-00.12.14:010][ 78]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2018.06.29-00.12.14:518][ 78]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.06.29-00.12.14:518][ 78]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.06.29-00.12.14:519][ 78]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.06.29-00.12.14:519][ 78]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.06.29-00.12.14:647][ 78]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.06.29-00.12.14:648][ 78]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X256)
+[2018.06.29-00.12.14:684][ 78]Lightmass on BARRYTHECHOPPA: 3.59 sec total, 229 ms importing, 27 ms setup, 586 ms photons, 2.64 sec processing, 0 ms extra exporting [16/16 mappings]. Threads: 18.3 sec total, 8.55 sec processing.
+[2018.06.29-00.12.14:738][ 78]LogStaticLightingSystem: Illumination: 13.1 sec (464 ms encoding lightmaps, 120 ms encoding shadowmaps)
+[2018.06.29-00.12.14:739][ 78]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.06.29-00.12.14:739][ 78]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.06.29-00.12.15:166][ 78]DumpUnbuiltLightIteractions
+[2018.06.29-00.12.15:166][ 78]Lights with unbuilt interactions: 0
+[2018.06.29-00.12.15:167][ 78]
+[2018.06.29-00.12.15:167][ 78]Primitives with unbuilt interactions: 0
+[2018.06.29-00.12.15:181][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.29-00.12.15:272][ 79]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.29-00.12.15:272][ 79]MapCheck: New page: NewMap - Jun 28, 2018, 4:12:15 PM
+[2018.06.29-00.12.15:389][ 79]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.91ms to complete.
+[2018.06.29-00.12.28:221][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.29-00.12.28:592][645]LogSlate: Window 'Message Log' being destroyed
+[2018.06.29-00.12.28:596][645]LogSlate: Window 'Message Log' being destroyed
+[2018.06.29-00.13.50:147][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.06.29-00.13.50:234][274]LogSavePackage: Save=67.54ms
+[2018.06.29-00.13.50:234][274]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_Auto57EF2054847815ADB4D758F94CF2BC609.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto5.umap'
+[2018.06.29-00.13.50:237][274]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto5.umap
+[2018.06.29-00.13.50:241][274]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.119
+[2018.06.29-00.13.50:241][274]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.119
+[2018.06.29-00.13.50:246][274]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewMap_BuiltData] ([1] browsable assets)...
+[2018.06.29-00.13.50:246][274]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewMap_BuiltData]
+[2018.06.29-00.13.50:246][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_BuiltData_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.06.29-00.13.50:386][274]LogSavePackage: Save=26.65ms
+[2018.06.29-00.13.50:386][274]LogSavePackage: Moving 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/NewMap_BuiltData_Auto5BB9597704C08A5BED039A782C6CCC1C7.tmp' to 'D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_BuiltData_Auto5.uasset'
+[2018.06.29-00.13.50:389][274]LogSavePackage: Display: Finished SavePackage D:/Users/Jerry/Documents/repos/03_BuildingEscape/BuildingEscape/Saved/Autosaves/Game/NewMap_BuiltData_Auto5.uasset
+[2018.06.29-00.13.50:389][274]LogFileHelpers: Auto-saving content packages took 0.146
